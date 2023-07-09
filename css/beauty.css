@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body
+{
+    background: whitesmoke;
+}
+
+h1, h2, h5
+{
+    color: #FD288D;
+}
+
+.group
+{
+    display: flex;
+    font-weight: bold;
+    padding: 5%;
+    background: white;
+}
+
+.group .text_left
+{
+   
+    padding: 2%;
+    width: 60%;
+}
+
+.group .text_left h1
+{
+    font-size: 5rem;
+}
+
+.group .text_left p
+{
+    font-size: 1.5rem;
+    margin: 1%;
+}
+
+.group .text_left button
+{
+    background: #FD288D;
+    color: whitesmoke;
+    width: 50%;
+    height: 50px;
+    border: 1px transparent;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.group .bloc_right img
+{
+    height: 550px;
+}
+
+.bloc_about 
+{
+    padding: 5%;
+    background: url(../img/fond1.PNG) no-repeat center ;
+    background-size: cover;
+    height: 70vh;
+    
+}
+
+
+.bloc_about p, .bloc_about h2
+{
+    color: #FD288D;
+    background: transparent;
+    font-weight: bolder;
+    margin: 5%;
+
+}
+
+.bloc_about h2
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bloc_about p
+{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.bloc_key
+{
+    margin: 7%;
+    padding: 5%;
+    background-size: cover;
+    height: 70vh;
+    background: white;
+    
+}
+
+.bloc_key h2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bloc_key .bloc_img
+{
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+.bloc_key .bloc_img .fac_one img
+{
+    width: 40%;
+    height: 150px;
+}
+
