@@ -115,7 +115,143 @@ h1, h2, h5
 
 .bloc_key .bloc_img .fac_one img
 {
-    width: 40%;
+    width: 150px;
     height: 150px;
+    margin-left: 10%;
 }
 
+.bloc_key .bloc_img .fac_one p
+{
+    width: 200px;
+    height: 100px;
+    border: solid 1px black;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bloc_excercise p, .bloc_about h2
+{
+    color: #FD288D;
+    background: transparent;
+    font-weight: bolder;
+    margin: 5%;
+
+}
+
+
+.bloc_excercise 
+{
+   align-content: center;
+   background: url(../img/Highlights.png) no-repeat center ;
+   background-size: cover;
+   height: 80vh;
+   padding: 5%;
+}
+.bloc_excercise h2
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bloc_excercise p
+{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.bloc_excercise button
+{
+    background: #FD288D;
+    color: whitesmoke;
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    border: 1px transparent;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.bloc_advice
+{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.bloc_advice .group
+{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 5%;
+    text-align: center;
+    color: white;
+}
+
+.bloc_advice button
+{
+    background: #FD288D;
+    color: whitesmoke;
+    width: 50%;
+    height: 50px;
+    margin-left:30%;
+    border: 1px transparent;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.bloc_comment
+{
+    margin: 7%;
+    padding: 5%;
+    background-size: cover;
+    height: 70vh;
+    background: white;
+    
+}
+
+.bloc_comment h2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bloc_comment .blocs
+{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bloc_comment .blocs .bloc 
+{
+    border: solid 1px black;
+    margin: 5%;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.bloc_comment .blocs .bloc p
+{
+    margin-bottom: 5%;
+}
+
+.last_bloc
+{
+    align-content: center;
+   background: url(../img/Contact.png) no-repeat center ;
+   background-size: cover;
+   height: 80vh;
+   padding: 5%;
+}
